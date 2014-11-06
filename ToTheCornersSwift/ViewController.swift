@@ -19,15 +19,29 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
+        // Make them look pretty
+        topLeftImage.layer.cornerRadius = 10
+        topLeftImage.layer.masksToBounds = true
+        topRightImage.layer.cornerRadius = 10
+        topRightImage.layer.masksToBounds = true
+        bottomLeftImage.layer.cornerRadius = 10
+        bottomLeftImage.layer.masksToBounds = true
+        bottomRightView.layer.cornerRadius = 10
+        bottomRightView.layer.masksToBounds = true
+        centerView.layer.cornerRadius = 10
+        centerView.layer.masksToBounds = true
+        
         // hide images
         topLeftImage.alpha = 0.0
         topRightImage.alpha = 0.0
         bottomLeftImage.alpha = 0.0
         bottomRightView.alpha = 0.0
         centerView.alpha = 0.0
-        
+    
         self.openingSequence()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,10 +57,10 @@ class ViewController: UIViewController {
     {
         
         self.toTheCorner(self.topLeftImage, delay: 0.0)
-        self.toTheCorner(self.bottomLeftImage, delay: 1.0)
-        self.toTheCorner(self.topRightImage, delay: 2.0)
-        self.toTheCorner(self.bottomRightView, delay: 3.0)
-        self.centerOpening(self.centerView, delay: 8.0)
+        self.toTheCorner(self.bottomLeftImage, delay: 0.75)
+        self.toTheCorner(self.topRightImage, delay: 1.5)
+        self.toTheCorner(self.bottomRightView, delay: 2.25)
+        self.toTheCorner(self.centerView, delay: 3.0)
     }
     
 
@@ -62,13 +76,13 @@ class ViewController: UIViewController {
         let originalCenter = view.center
         let b = view.bounds
         
-        UIView.animateWithDuration(0.7, delay: delay, usingSpringWithDamping: 0.2, initialSpringVelocity: 0.8, options: .CurveEaseOut, animations: {
+        UIView.animateWithDuration(0.0, delay: delay, usingSpringWithDamping: 0.0, initialSpringVelocity: 30, options: nil, animations: {
             
                 view.bounds.size.height = b.height + b.height/3
                 view.bounds.size.width = b.width + b.width/4
                 view.alpha = 1.0
             }, completion: {finished in
-                UIView.animateWithDuration(0.5, delay: 0.7, usingSpringWithDamping: 0.8, initialSpringVelocity: 10, options: .CurveEaseOut, animations: {
+                UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 5, options: .CurveEaseOut, animations: {
                     
                     // Shrink to original size
                     view.bounds.size.height = b.height
