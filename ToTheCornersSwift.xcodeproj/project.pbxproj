@@ -14,6 +14,11 @@
 		C947664E1A083C3C00B7E6EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C947664D1A083C3C00B7E6EB /* Images.xcassets */; };
 		C94766511A083C3C00B7E6EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C947664F1A083C3C00B7E6EB /* LaunchScreen.xib */; };
 		C947665D1A083C3C00B7E6EB /* ToTheCornersSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947665C1A083C3C00B7E6EB /* ToTheCornersSwiftTests.swift */; };
+		C97605DE1A0C210700289B6A /* group49.png in Resources */ = {isa = PBXBuildFile; fileRef = C97605DD1A0C210700289B6A /* group49.png */; };
+		C97605E01A0C21EE00289B6A /* burger1.png in Resources */ = {isa = PBXBuildFile; fileRef = C97605DF1A0C21EE00289B6A /* burger1.png */; };
+		C97605E21A0C21F400289B6A /* musical7.png in Resources */ = {isa = PBXBuildFile; fileRef = C97605E11A0C21F400289B6A /* musical7.png */; };
+		C97605E41A0C21FC00289B6A /* party1.png in Resources */ = {isa = PBXBuildFile; fileRef = C97605E31A0C21FC00289B6A /* party1.png */; };
+		C97605E61A0C220500289B6A /* vip2.png in Resources */ = {isa = PBXBuildFile; fileRef = C97605E51A0C220500289B6A /* vip2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		C94766561A083C3C00B7E6EB /* ToTheCornersSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToTheCornersSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C947665B1A083C3C00B7E6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C947665C1A083C3C00B7E6EB /* ToTheCornersSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToTheCornersSwiftTests.swift; sourceTree = "<group>"; };
+		C97605DD1A0C210700289B6A /* group49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group49.png; sourceTree = "<group>"; };
+		C97605DF1A0C21EE00289B6A /* burger1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger1.png; sourceTree = "<group>"; };
+		C97605E11A0C21F400289B6A /* musical7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musical7.png; sourceTree = "<group>"; };
+		C97605E31A0C21FC00289B6A /* party1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party1.png; sourceTree = "<group>"; };
+		C97605E51A0C220500289B6A /* vip2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,11 @@
 		C94766411A083C3C00B7E6EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C97605E31A0C21FC00289B6A /* party1.png */,
+				C97605E11A0C21F400289B6A /* musical7.png */,
+				C97605DF1A0C21EE00289B6A /* burger1.png */,
+				C97605E51A0C220500289B6A /* vip2.png */,
+				C97605DD1A0C210700289B6A /* group49.png */,
 				C94766421A083C3C00B7E6EB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97605DE1A0C210700289B6A /* group49.png in Resources */,
 				C947664C1A083C3C00B7E6EB /* Main.storyboard in Resources */,
+				C97605E01A0C21EE00289B6A /* burger1.png in Resources */,
 				C94766511A083C3C00B7E6EB /* LaunchScreen.xib in Resources */,
+				C97605E61A0C220500289B6A /* vip2.png in Resources */,
+				C97605E21A0C21F400289B6A /* musical7.png in Resources */,
+				C97605E41A0C21FC00289B6A /* party1.png in Resources */,
 				C947664E1A083C3C00B7E6EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +429,7 @@
 				C94766621A083C3C00B7E6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C94766631A083C3C00B7E6EB /* Build configuration list for PBXNativeTarget "ToTheCornersSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				C94766651A083C3C00B7E6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

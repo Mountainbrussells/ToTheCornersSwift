@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zR3-dG-EfV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musical7.png" translatesAutoresizingMaskIntoConstraints="NO" id="zR3-dG-EfV">
                                 <rect key="frame" x="16" y="28" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.18431372940540314" green="0.94509810209274292" blue="0.23137256503105164" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="height" constant="50" id="p7U-Yc-Dir"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t69-KF-a8p">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="party1.png" translatesAutoresizingMaskIntoConstraints="NO" id="t69-KF-a8p">
                                 <rect key="frame" x="309" y="28" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.9647059440612793" green="0.80784320831298828" blue="0.19607844948768616" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="width" constant="50" id="Pk8-SQ-ArP"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cAu-fK-gwj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burger1.png" translatesAutoresizingMaskIntoConstraints="NO" id="cAu-fK-gwj">
                                 <rect key="frame" x="11" y="579" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.91372555494308472" green="0.59607845544815063" blue="0.87843143939971924" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -41,7 +41,7 @@
                                     <constraint firstAttribute="width" constant="50" id="qmY-zA-fFq"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W9Y-jZ-pIm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group49.png" translatesAutoresizingMaskIntoConstraints="NO" id="W9Y-jZ-pIm">
                                 <rect key="frame" x="112" y="259" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.27450981736183167" green="0.14117647707462311" blue="0.98431378602981567" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -49,7 +49,7 @@
                                     <constraint firstAttribute="width" constant="150" id="f59-Qe-DcO"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Riw-NS-2bJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vip2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Riw-NS-2bJ">
                                 <rect key="frame" x="309" y="579" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.90588241815567017" green="0.96078437566757202" blue="0.21568629145622253" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -58,7 +58,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.88235300779342651" green="0.96862751245498657" blue="0.90980398654937744" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.96862751245498657" green="0.9647059440612793" blue="0.98823535442352295" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cAu-fK-gwj" secondAttribute="bottom" constant="38" id="0Wy-Ll-dji"/>
                             <constraint firstItem="zR3-dG-EfV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="12i-f5-HQG"/>
@@ -87,4 +87,11 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="burger1.png" width="64" height="64"/>
+        <image name="group49.png" width="64" height="64"/>
+        <image name="musical7.png" width="64" height="87"/>
+        <image name="party1.png" width="64" height="70"/>
+        <image name="vip2.png" width="64" height="33"/>
+    </resources>
 </document>
